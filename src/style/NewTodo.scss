@@ -1,0 +1,29 @@
+.form{
+    width: 40rem;
+    margin: 2rem auto;
+    & label{
+        display: block;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+    & input{
+        display: block;
+        width: 100%;
+        font:inherit;
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        border-radius: 4px;
+    }
+    & button{
+        font:inherit;
+        background-color: #ebc002;
+        border: 1px solid #ebc002;
+        padding: 0.5rem 1.5rem;
+        margin-top: 5px;
+        border-radius: 4px;
+    }
+    & button:hover{
+        background-color: #dcb508;
+    }
+}
+
